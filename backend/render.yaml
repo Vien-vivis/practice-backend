@@ -2,6 +2,7 @@ services:
   - type: web
     name: agency-strapi
     runtime: node
+    rootDir: backend 
     plan: free
     buildCommand: npm install --legacy-peer-deps && npm run build
     startCommand: npm run start
